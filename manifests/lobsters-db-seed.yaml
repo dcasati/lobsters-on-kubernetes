@@ -4,6 +4,7 @@ metadata:
   name: lobsters-db-seed
 spec:
   template:
+    namespace: lobsters
     metadata:
       name: lobsters-db-seed
       labels:

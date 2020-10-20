@@ -5,6 +5,7 @@ metadata:
 spec:
   template:
     metadata:
+      namespace: lobsters
       name: lobsters-db-schema-load
       labels:
         task: db-schema-load

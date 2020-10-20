@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: lobsters
-          image: dcasati/lobsters:2.0.1
+          image: kelseyhightower/lobsters:2.0.0
           env:
             - name: DATABASE_URL
               valueFrom:

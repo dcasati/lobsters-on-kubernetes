@@ -1,11 +1,11 @@
-kind: PersistentVolumeClaim
 apiVersion: v1
+kind: PersistentVolumeClaim
 metadata:
-  name: mysql
+  name: mysql-pv-claim
 spec:
+  storageClassName: ase-node-local
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 500Gi
-  volumeName: mysql
+      storage: 20Gi
